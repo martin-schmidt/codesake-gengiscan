@@ -14,4 +14,3 @@ target = Codesake::Core::Target.new({:url=>ARGV[0]})
 $logger.log "fingerprinting #{target.url}"
 target.fingerprint
 $logger.log target.cms
-
